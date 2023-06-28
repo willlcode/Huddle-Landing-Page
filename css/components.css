@@ -1,0 +1,31 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.botao1 {
+  color: hsl(321, 100%, 78%);
+  border: solid 2px hsl(321, 100%, 78%);
+  border-radius: 50px;
+  box-shadow: 0.5px 0.5px 4px 0px hsl(321, 100%, 78%);
+  padding: 5px 15px;
+}
+
+.botao1:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+.botao2 {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0.5px 0.5px 4px 0px black;
+  padding: 15px 65px;
+}
+
+.botao2:hover {
+  background-color: hsl(322, 100%, 60%);
+}

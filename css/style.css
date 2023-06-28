@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1000px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40pxc ;
+  padding: 60px 0px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 150px;
+}
+
+.content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  color: hsl(192, 100%, 9%);
+}
+
+.content p {
+  width: 55ch;
+  line-height: 1.5;
+  color: hsl(192, 100%, 9%);
+}
