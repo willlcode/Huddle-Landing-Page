@@ -9,7 +9,7 @@
   color: hsl(321, 100%, 78%);
   border: solid 2px hsl(321, 100%, 78%);
   border-radius: 50px;
-  box-shadow: 0.5px 0.5px 4px 0px hsl(321, 100%, 78%);
+  box-shadow: 2px 1px 3px 0px hsl(321, 100%, 78%);
   padding: 5px 15px;
 }
 
@@ -19,10 +19,11 @@
 }
 
 .botao2 {
-  background-color: hsl(322, 100%, 66%);
-  color: white;
+  display: block;
+  background-color: hsl(322, 100%, 56%);
+  color: hsl(207, 100%, 98%);
   border-radius: 50px;
-  box-shadow: 0.5px 0.5px 4px 0px black;
+  box-shadow: 0px 0px 2px 0px black;
   padding: 15px 65px;
 }
 
